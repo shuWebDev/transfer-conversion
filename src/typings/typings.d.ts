@@ -3,7 +3,8 @@ declare namespace AppRoot {
 
   interface AppState {
     stateCode: string,
-    schoolCode: string
+    schoolCode: string,
+    schoolName: string
   }
 }
 

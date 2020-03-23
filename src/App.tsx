@@ -9,7 +9,8 @@ class App extends React.Component<AppRoot.AppProps, AppRoot.AppState> {
 
     this.state = {
       stateCode: "",
-      schoolCode: ""
+      schoolCode: "",
+      schoolName: ""
     }
   }
 
@@ -27,8 +28,10 @@ class App extends React.Component<AppRoot.AppProps, AppRoot.AppState> {
     let c: HTMLSelectElement = document.querySelector("#college-select") as HTMLSelectElement;
 
     let value: string = c.options[c.selectedIndex].value;
+    let sName: string = c.options[c.selectedIndex].id;
     this.setState({
-      schoolCode: value
+      schoolCode: value,
+      schoolName: sName
     });
 
     return true;
@@ -52,7 +55,12 @@ class App extends React.Component<AppRoot.AppProps, AppRoot.AppState> {
           </>
         );
       } else {
-        return <p>Loading...</p>
+        return (
+          <>
+            <p>State selected: <br /><strong>{this.state.stateCode}</strong></p>
+            <p>College selected: <br /><strong>{this.state.schoolName}</strong></p>
+          </>
+        );
       }
     } 
   }

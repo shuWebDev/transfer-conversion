@@ -1,0 +1,160 @@
+{
+  "courses": [
+    {
+      "mySchoolCourseNumber": "AR 101",
+      "mySchoolCourseTitle": "Art History and Appreciation",
+      "shuCourseNumber": "ARTH ELEC",
+      "shuCourseTitle": "Art History and Appreciation"
+    },
+    {
+      "mySchoolCourseNumber": "ED 101",
+      "mySchoolCourseTitle": "Health and Wellness I",
+      "shuCourseNumber": "GENL ELEC",
+      "shuCourseTitle": "Health and Wellness I"
+    },
+    {
+      "mySchoolCourseNumber": "ED 102",
+      "mySchoolCourseTitle": "Health and Wellness II",
+      "shuCourseNumber": "GENL ELEC",
+      "shuCourseTitle": "Health and Wellness II"
+    },
+    {
+      "mySchoolCourseNumber": "ED 103",
+      "mySchoolCourseTitle": "Personal Computer Applications",
+      "shuCourseNumber": "BMIE 1001",
+      "shuCourseTitle": "Real World Technologies"
+    },
+    {
+      "mySchoolCourseNumber": "EN 101",
+      "mySchoolCourseTitle": "College English I",
+      "shuCourseNumber": "ENGL 1201",
+      "shuCourseTitle": "Core English I"
+    },
+    {
+      "mySchoolCourseNumber": "EN 101*",
+      "mySchoolCourseTitle": "College English I",
+      "shuCourseNumber": "LART ELEC",
+      "shuCourseTitle": "College English I"
+    },
+    {
+      "mySchoolCourseNumber": "EN 102",
+      "mySchoolCourseTitle": "College English II",
+      "shuCourseNumber": "ENGL 2514",
+      "shuCourseTitle": "Writing Wksp-Res Analysis"
+    },
+    {
+      "mySchoolCourseNumber": "EN 103",
+      "mySchoolCourseTitle": "Fundamentals - Public Speaking",
+      "shuCourseNumber": "COST 1600",
+      "shuCourseTitle": "Oral Communication"
+    },
+    {
+      "mySchoolCourseNumber": "FA 101",
+      "mySchoolCourseTitle": "Fine Arts Appreciation",
+      "shuCourseNumber": "LART ELEC",
+      "shuCourseTitle": "Fine Arts Appreciation"
+    },
+    {
+      "mySchoolCourseNumber": "HI 101",
+      "mySchoolCourseTitle": "World Civilization I",
+      "shuCourseNumber": "HIST 1101",
+      "shuCourseTitle": "World History I"
+    },
+    {
+      "mySchoolCourseNumber": "HI 102",
+      "mySchoolCourseTitle": "World Civilization II",
+      "shuCourseNumber": "HIST 1102",
+      "shuCourseTitle": "World History II"
+    },
+    {
+      "mySchoolCourseNumber": "MT 102",
+      "mySchoolCourseTitle": "College Algebra",
+      "shuCourseNumber": "MATH 1014",
+      "shuCourseTitle": "College Algebra"
+    },
+    {
+      "mySchoolCourseNumber": "PH 203",
+      "mySchoolCourseTitle": "Philosophy of the Human Person",
+      "shuCourseNumber": "PHIL ELEC",
+      "shuCourseTitle": "Philosophy of the Human Person"
+    },
+    {
+      "mySchoolCourseNumber": "PH 205",
+      "mySchoolCourseTitle": "Historical Intro to Philosophy",
+      "shuCourseNumber": "PHIL 1101",
+      "shuCourseTitle": "Introduction to Philosophy"
+    },
+    {
+      "mySchoolCourseNumber": "PS 101",
+      "mySchoolCourseTitle": "General Psychology",
+      "shuCourseNumber": "PSYC 1101",
+      "shuCourseTitle": "Intro to Psychology"
+    },
+    {
+      "mySchoolCourseNumber": "PS 202",
+      "mySchoolCourseTitle": "Developmental Psychology",
+      "shuCourseNumber": "PSYC 2212",
+      "shuCourseTitle": "Developmental Psychology"
+    },
+    {
+      "mySchoolCourseNumber": "SC 101",
+      "mySchoolCourseTitle": "Introduction to Chemistry",
+      "shuCourseNumber": "CHEM ELEC",
+      "shuCourseTitle": "Introduction to Chemistry"
+    },
+    {
+      "mySchoolCourseNumber": "SC 102",
+      "mySchoolCourseTitle": "Introduction to Biology",
+      "shuCourseNumber": "BIOL 1104",
+      "shuCourseTitle": "Biology in the World Around Us"
+    },
+    {
+      "mySchoolCourseNumber": "TH 101",
+      "mySchoolCourseTitle": "Sacred Scripture I",
+      "shuCourseNumber": "RELS 1103",
+      "shuCourseTitle": "Intro Old Test.-Hebrew Bible"
+    },
+    {
+      "mySchoolCourseNumber": "TH 102",
+      "mySchoolCourseTitle": "Sacred Scripture II",
+      "shuCourseNumber": "RELS 1104",
+      "shuCourseTitle": "Intro to the New Testament"
+    },
+    {
+      "mySchoolCourseNumber": "TH 201",
+      "mySchoolCourseTitle": "The Church - Its Nature - Soc",
+      "shuCourseNumber": "GENL ELEC",
+      "shuCourseTitle": "The Church - Its Nature - Soc"
+    },
+    {
+      "mySchoolCourseNumber": "TH 202",
+      "mySchoolCourseTitle": "Sacramental Theology",
+      "shuCourseNumber": "GENL ELEC",
+      "shuCourseTitle": "Sacramental Theology"
+    },
+    {
+      "mySchoolCourseNumber": "TH 203",
+      "mySchoolCourseTitle": "Fundamental Moral Theology",
+      "shuCourseNumber": "RELS 1502",
+      "shuCourseTitle": "Contemporary Moral Issues"
+    },
+    {
+      "mySchoolCourseNumber": "TH 204",
+      "mySchoolCourseTitle": "Spiritual Theology",
+      "shuCourseNumber": "GENL ELEC",
+      "shuCourseTitle": "Spiritual Theology"
+    },
+    {
+      "mySchoolCourseNumber": "TH 205",
+      "mySchoolCourseTitle": "Mystery of God",
+      "shuCourseNumber": "GENL ELEC",
+      "shuCourseTitle": "Mystery of God"
+    },
+    {
+      "mySchoolCourseNumber": "TH 207",
+      "mySchoolCourseTitle": "Mary and the Scriptures",
+      "shuCourseNumber": "LART ELEC",
+      "shuCourseTitle": "Mary and the Scriptures"
+    }
+  ]
+}

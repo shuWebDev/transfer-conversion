@@ -29,7 +29,7 @@ class SelectCollege extends React.Component<CollegeComponent.CProps, CollegeComp
 
     for(let i=0; i<cl.length; i++) {
       output.push(
-        <option key={`key${i}`} value={`${cl[i].schoolCode}`}>
+        <option key={`key${i}`} id={`${cl[i].schoolName}`} value={`${cl[i].schoolCode}`}>
           {`${cl[i].schoolName}`}
         </option>
       );
@@ -42,13 +42,13 @@ class SelectCollege extends React.Component<CollegeComponent.CProps, CollegeComp
     if(this.state.collegeList.length) {
       return (
         <>
-            <label>Select school you are transferring from:</label>
-            <br />
-            <select name="college-select" id="college-select">
-              {this.createCollegeOptions(this.state.collegeList)}
-            </select>
-      <button onClick={() => {this.props.saveCollegeCode()}}>Submit</button>
-          </>
+          <label>Select school you are transferring from:</label>
+          <br />
+          <select name="college-select" id="college-select">
+            {this.createCollegeOptions(this.state.collegeList)}
+          </select>
+          <button onClick={() => {this.props.saveCollegeCode()}}>Submit</button>
+        </>
       )
     } else {
       return <p>Loading College List...</p>;
