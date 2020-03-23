@@ -10,7 +10,13 @@ class App extends React.Component<AppRoot.AppProps, AppRoot.AppState> {
     this.state = {
       stateCode: "",
       schoolCode: "",
-      schoolName: ""
+      schoolName: "",
+      matrix: {
+        mySchoolCourseNumber: "",
+        mySchoolCourseTitle: "",
+        shuCourseNumber: "",
+        shuCourseTitle: ""
+      }
     }
   }
 
@@ -37,6 +43,18 @@ class App extends React.Component<AppRoot.AppProps, AppRoot.AppState> {
     return true;
   }
   
+  createMatrix = () => {
+    // NOTE: temporary provision to build the output until we can get around cors restrictions to the data
+    let dataURL = "/matrix.json"; 
+    fetch(dataURL)
+    .then(response => {return response.json()})
+    .then(json => {
+      
+    })
+
+    return true;
+  }
+
   render () {
     // Step 1, select your state
     if(this.state.stateCode === "") {

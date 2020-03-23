@@ -37,7 +37,6 @@ class SelectState extends React.Component<StateComponent.SProps, StateComponent.
   }
 
   
-
   render () {
     if(this.state.stateNames.length) {
       return (

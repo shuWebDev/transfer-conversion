@@ -4,7 +4,15 @@ declare namespace AppRoot {
   interface AppState {
     stateCode: string,
     schoolCode: string,
-    schoolName: string
+    schoolName: string,
+    matrix: CourseMatrix
+  }
+
+  interface CourseMatrix {
+    mySchoolCourseNumber: string,
+    mySchoolCourseTitle: string,
+    shuCourseNumber: string,
+    shuCourseTitle: string
   }
 }
 
