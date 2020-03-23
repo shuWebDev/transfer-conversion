@@ -1,0 +1,244 @@
+{
+  "codes": [
+    {
+      "schoolCode": "960138",
+      "schoolName": "ANTHEM INSTITUTE"
+    },
+    {
+      "schoolCode": "2009",
+      "schoolName": "ASSUMPTION COLLEGE SISTERS"
+    },
+    {
+      "schoolCode": "2024",
+      "schoolName": "ATLANTIC CAPE CMTY COLL"
+    },
+    {
+      "schoolCode": "2032",
+      "schoolName": "BERGEN CMTY COLLEGE"
+    },
+    {
+      "schoolCode": "2061",
+      "schoolName": "BERKELEY COLLEGE - NJ"
+    },
+    {
+      "schoolCode": "2044",
+      "schoolName": "BLOOMFIELD COLLEGE"
+    },
+    {
+      "schoolCode": "2181",
+      "schoolName": "BROOKDALE CMTY COLLEGE"
+    },
+    {
+      "schoolCode": "2072",
+      "schoolName": "CALDWELL COLLEGE"
+    },
+    {
+      "schoolCode": "2121",
+      "schoolName": "CAMDEN COUNTY COLLEGE"
+    },
+    {
+      "schoolCode": "2080",
+      "schoolName": "CENTENARY COLLEGE"
+    },
+    {
+      "schoolCode": "2519",
+      "schoolName": "COLL NEW JERSEY"
+    },
+    {
+      "schoolCode": "2090",
+      "schoolName": "COLL ST ELIZABETH"
+    },
+    {
+      "schoolCode": "2124",
+      "schoolName": "COUNTY COLLEGE MORRIS"
+    },
+    {
+      "schoolCode": "2118",
+      "schoolName": "CUMBERLAND COUNTY COLLEGE"
+    },
+    {
+      "schoolCode": "2113",
+      "schoolName": "DEVRY COLLEGE TECHNOLOGY"
+    },
+    {
+      "schoolCode": "901001",
+      "schoolName": "DOVER BUSINESS COLLEGE"
+    },
+    {
+      "schoolCode": "2193",
+      "schoolName": "DREW UNIVERSITY"
+    },
+    {
+      "schoolCode": "5829",
+      "schoolName": "EASTWICK COLLEGE"
+    },
+    {
+      "schoolCode": "960140",
+      "schoolName": "EASTWICK COLLEGE"
+    },
+    {
+      "schoolCode": "2237",
+      "schoolName": "ESSEX COUNTY COLLEGE"
+    },
+    {
+      "schoolCode": "2262",
+      "schoolName": "FAIRLEIGH DICKINSON U MADISON"
+    },
+    {
+      "schoolCode": "2263",
+      "schoolName": "FAIRLEIGH DICKINSON U TEANECK"
+    },
+    {
+      "schoolCode": "2321",
+      "schoolName": "FELICIAN COLLEGE"
+    },
+    {
+      "schoolCode": "2274",
+      "schoolName": "GEORGIAN COURT UNIVERSITY"
+    },
+    {
+      "schoolCode": "900009",
+      "schoolName": "GIBBS COLLEGE"
+    },
+    {
+      "schoolCode": "2291",
+      "schoolName": "HUDSON CO CMTY COLLEGE"
+    },
+    {
+      "schoolCode": "4914",
+      "schoolName": "KATHARINE GIBBS SCH NJ"
+    },
+    {
+      "schoolCode": "2517",
+      "schoolName": "KEAN UNIVERSITY"
+    },
+    {
+      "schoolCode": "3053",
+      "schoolName": "LINCOLN TECH INST UNION NJ"
+    },
+    {
+      "schoolCode": "4237",
+      "schoolName": "LINCOLN TECH INSTITUTE-MAHWAH"
+    },
+    {
+      "schoolCode": "2444",
+      "schoolName": "MERCER COUNTY CMTY COLLEGE"
+    },
+    {
+      "schoolCode": "2441",
+      "schoolName": "MIDDLESEX COUNTY COLLEGE"
+    },
+    {
+      "schoolCode": "2416",
+      "schoolName": "MONMOUTH UNIVERSITY"
+    },
+    {
+      "schoolCode": "2520",
+      "schoolName": "MONTCLAIR STATE UNIVERSITY"
+    },
+    {
+      "schoolCode": "2427",
+      "schoolName": "MOUNTAINSIDE HOSPITAL"
+    },
+    {
+      "schoolCode": "2516",
+      "schoolName": "NEW JERSEY CITY UNIVERSITY"
+    },
+    {
+      "schoolCode": "2513",
+      "schoolName": "NEW JERSEY INSTITUTE TECH"
+    },
+    {
+      "schoolCode": "2630",
+      "schoolName": "OCEAN COUNTY COLLEGE"
+    },
+    {
+      "schoolCode": "2694",
+      "schoolName": "PASSAIC COUNTY CMTY COLLEGE"
+    },
+    {
+      "schoolCode": "3933",
+      "schoolName": "PILLAR COLLEGE"
+    },
+    {
+      "schoolCode": "2884",
+      "schoolName": "RAMAPO COLLEGE NEW JERSEY"
+    },
+    {
+      "schoolCode": "2867",
+      "schoolName": "RARITAN VALLEY CMTY COLLEGE"
+    },
+    {
+      "schoolCode": "2889",
+      "schoolName": "RICHARD STOCKTON COLL OF NJ"
+    },
+    {
+      "schoolCode": "2758",
+      "schoolName": "RIDER UNIVERSITY"
+    },
+    {
+      "schoolCode": "2180",
+      "schoolName": "ROWAN COLLEGE AT BURLINGTON CO"
+    },
+    {
+      "schoolCode": "2281",
+      "schoolName": "ROWAN COLLEGE GLOUCESTER CNTY"
+    },
+    {
+      "schoolCode": "2515",
+      "schoolName": "ROWAN UNIVERSITY"
+    },
+    {
+      "schoolCode": "902742",
+      "schoolName": "RUTGERS U UNIV C CAM"
+    },
+    {
+      "schoolCode": "2765",
+      "schoolName": "RUTGERS UNIVERSITY*"
+    },
+    {
+      "schoolCode": "8190",
+      "schoolName": "RUTGERS-NEWARK"
+    },
+    {
+      "schoolCode": "2868",
+      "schoolName": "SALEM CMTY COLLEGE"
+    },
+    {
+      "schoolCode": "2806",
+      "schoolName": "ST PETERS UNIVERSITY"
+    },
+    {
+      "schoolCode": "2819",
+      "schoolName": "STEVENS INSTITUTE TECH"
+    },
+    {
+      "schoolCode": "2711",
+      "schoolName": "SUSSEX COUNTY CMTY COLLEGE"
+    },
+    {
+      "schoolCode": "0682",
+      "schoolName": "THOMAS A EDISON STATE COLLEGE"
+    },
+    {
+      "schoolCode": "2921",
+      "schoolName": "UNION COUNTY COLLEGE"
+    },
+    {
+      "schoolCode": "0598",
+      "schoolName": "UNIV MEDICINE DENTISTRY NJ"
+    },
+    {
+      "schoolCode": "2722",
+      "schoolName": "WARREN COUNTY CMTY COLLEGE"
+    },
+    {
+      "schoolCode": "2974",
+      "schoolName": "WESTMINSTER CHOIR COLL RIDER U"
+    },
+    {
+      "schoolCode": "2518",
+      "schoolName": "WILLIAM PATERSON UNIV"
+    }
+  ]
+}
