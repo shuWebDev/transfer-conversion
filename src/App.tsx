@@ -13,7 +13,6 @@ class App extends React.Component<AppRoot.AppProps, AppRoot.AppState> {
       stateCode: "",
       schoolCode: "",
       schoolName: "",
-      //matrix: [],
       step: 0
     }
   }
@@ -43,7 +42,16 @@ class App extends React.Component<AppRoot.AppProps, AppRoot.AppState> {
     return true;
   }
   
-  
+  resetState = () => {
+    this.setState({
+      stateCode: "",
+      schoolCode: "",
+      schoolName: "",
+      step: 0
+    });
+
+    return true;
+  }
 
   /* NOTE: Test component to illustrate JSONP */
   // jsonPTest = () => {
@@ -59,7 +67,7 @@ class App extends React.Component<AppRoot.AppProps, AppRoot.AppState> {
 
       case 1: return <SelectCollege stateCode={this.state.stateCode} saveCollegeCode={this.saveCollegeCode} />
 
-      case 2: return <Matrix schoolCode={this.state.schoolCode} />
+      case 2: return <Matrix schoolCode={this.state.schoolCode} resetState={this.resetState} />
 
       default: return <p>Loading...</p>
     }

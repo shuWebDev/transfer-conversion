@@ -56,10 +56,10 @@ class Matrix extends React.Component<MatrixProps, MatrixState> {
     return rows;
   }
 
-
   render() {
     if(this.state.matrixData.courses.length) {
       return (
+        <>
         <table style={{width: "50vw"}}>
           <thead>
             <tr>
@@ -68,7 +68,7 @@ class Matrix extends React.Component<MatrixProps, MatrixState> {
           </thead>
           <tbody>
             <tr>
-              <th>Transfer School Course Code</th>
+              <th style={{textAlign: "center"}}>Transfer School Course Code</th>
               <th>Transfer School Course Title</th>
               <th>Seton Hall Course Code</th>
               <th>Seton Hall Course Title</th>
@@ -76,6 +76,8 @@ class Matrix extends React.Component<MatrixProps, MatrixState> {
             {this.createMatrix(this.state.matrixData)}
           </tbody>
         </table>
+        <button onClick={() => this.props.resetState()}>Start Over</button>
+        </>
       );
     } else {
       return <p>Loading....</p>

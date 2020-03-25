@@ -37,7 +37,8 @@ declare namespace CollegeComponent {
 }
 
 interface MatrixProps {
-  schoolCode: string
+  schoolCode: string,
+  resetState: Function
 }
 
 interface MatrixState {
