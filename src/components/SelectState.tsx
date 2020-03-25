@@ -1,6 +1,6 @@
 ///<reference path='../typings/typings.d.ts'/>
 import * as React from 'react';
-//import fetchJsonp  from 'fetch-jsonp';
+import fetchJsonp  from 'fetch-jsonp';
 
 class SelectState extends React.Component<StateComponent.SProps, StateComponent.SState> {
   constructor(props:StateComponent.SProps) {
@@ -12,20 +12,20 @@ class SelectState extends React.Component<StateComponent.SProps, StateComponent.
   }
 
   componentDidMount = () => {
-    // NOTE: change to TLTC server URL for live data b/c of CORS issue on localhost
-    //let dataURL = "https://tltc.shu.edu/projects/equiv/index.php?STS=1";
-    let dataURL = "/states.json";
+    // NOTE: use JSONP to get around CORS
+    let dataURL = "https://tltc.shu.edu/projects/equiv/index.php?STS=1";
 
-    fetch(dataURL)
-    .then(response => { return response.json(); })
-    .then(data => {
-      let s: string[] = data.states;
+    fetchJsonp(dataURL)
+    .then(response => response.json())
+    .then(json => {
+      let s: string[] = json.states;
       this.setState({
         stateNames: s
       });
     });
   }
 
+  // NOTE: creates the <option>s for the <select> for state selection
   createStateOptions = (stateNames: string[]) => {
     let output: JSX.Element[] = [];
 

@@ -2,6 +2,8 @@
 import * as React from 'react';
 import SelectState from './components/SelectState';
 import SelectCollege from './components/SelectCollege';
+import Matrix from './components/Matrix';
+//import fetchJsonp from 'fetch-jsonp';
 
 class App extends React.Component<AppRoot.AppProps, AppRoot.AppState> {
   constructor(props: AppRoot.AppProps) {
@@ -11,12 +13,8 @@ class App extends React.Component<AppRoot.AppProps, AppRoot.AppState> {
       stateCode: "",
       schoolCode: "",
       schoolName: "",
-      matrix: {
-        mySchoolCourseNumber: "",
-        mySchoolCourseTitle: "",
-        shuCourseNumber: "",
-        shuCourseTitle: ""
-      }
+      //matrix: [],
+      step: 0
     }
   }
 
@@ -25,7 +23,8 @@ class App extends React.Component<AppRoot.AppProps, AppRoot.AppState> {
 
     let value: string = s.options[s.selectedIndex].value;
     this.setState({
-      stateCode: value
+      stateCode: value,
+      step: 1
     });
     return true;
   }
@@ -37,50 +36,33 @@ class App extends React.Component<AppRoot.AppProps, AppRoot.AppState> {
     let sName: string = c.options[c.selectedIndex].id;
     this.setState({
       schoolCode: value,
-      schoolName: sName
+      schoolName: sName,
+      step: 2
     });
 
     return true;
   }
   
-  createMatrix = () => {
-    // NOTE: temporary provision to build the output until we can get around cors restrictions to the data
-    let dataURL = "/matrix.json"; 
-    fetch(dataURL)
-    .then(response => {return response.json()})
-    .then(json => {
-      
-    })
+  
 
-    return true;
-  }
+  /* NOTE: Test component to illustrate JSONP */
+  // jsonPTest = () => {
+  //   fetchJsonp('https://tltc.shu.edu/projects/equiv/index.php?STS=1')
+  //   .then(res => res.json())
+  //   .then(json => console.log(json));
+  //   return true;
+  // }
 
   render () {
-    // Step 1, select your state
-    if(this.state.stateCode === "") {
-      return (
-        <div className="App">
-          <SelectState saveStateCode={this.saveStateCode} />
-        </div>
-      );
-    // Step 2, given state, select your school
-    } else {
-      if(this.state.schoolCode === "") {
-        return (
-          <>
-            <p>State selected: <br /><strong>{this.state.stateCode}</strong></p>
-            <SelectCollege saveCollegeCode={this.saveCollegeCode} />
-          </>
-        );
-      } else {
-        return (
-          <>
-            <p>State selected: <br /><strong>{this.state.stateCode}</strong></p>
-            <p>College selected: <br /><strong>{this.state.schoolName}</strong></p>
-          </>
-        );
-      }
-    } 
+    switch(this.state.step) {
+      case 0: return <SelectState saveStateCode={this.saveStateCode} />
+
+      case 1: return <SelectCollege stateCode={this.state.stateCode} saveCollegeCode={this.saveCollegeCode} />
+
+      case 2: return <Matrix schoolCode={this.state.schoolCode} />
+
+      default: return <p>Loading...</p>
+    }
   }
 }
 

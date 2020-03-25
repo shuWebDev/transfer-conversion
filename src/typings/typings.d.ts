@@ -5,14 +5,8 @@ declare namespace AppRoot {
     stateCode: string,
     schoolCode: string,
     schoolName: string,
-    matrix: CourseMatrix
-  }
-
-  interface CourseMatrix {
-    mySchoolCourseNumber: string,
-    mySchoolCourseTitle: string,
-    shuCourseNumber: string,
-    shuCourseTitle: string
+    //matrix: CourseMatrix[]
+    step: number
   }
 }
 
@@ -32,7 +26,8 @@ declare namespace CollegeComponent {
   }
 
   interface CProps {
-    saveCollegeCode: Function
+    saveCollegeCode: Function,
+    stateCode: string
   }
 
   interface SchoolInfo {
@@ -41,3 +36,19 @@ declare namespace CollegeComponent {
   }
 }
 
+interface MatrixProps {
+  schoolCode: string
+}
+
+interface MatrixState {
+  matrixData: CourseMatrix
+}
+
+interface CourseMatrix {
+  courses: [{
+    mySchoolCourseNumber: string,
+    mySchoolCourseTitle: string,
+    shuCourseNumber: string,
+    shuCourseTitle: string
+  }]
+}
