@@ -46,7 +46,7 @@ class SelectState extends React.Component<StateComponent.SProps, StateComponent.
           <select name="state-select" id="state-select">
             {this.createStateOptions(this.state.stateNames)}
           </select>
-          <button onClick={() => {this.props.saveStateCode()}}>Submit</button>
+          <button className="button" onClick={() => {this.props.saveStateCode()}}>Submit</button>
         </>
       );
     } else {

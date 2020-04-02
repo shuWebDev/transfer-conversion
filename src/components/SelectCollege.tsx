@@ -48,7 +48,7 @@ class SelectCollege extends React.Component<CollegeComponent.CProps, CollegeComp
           <select name="college-select" id="college-select">
             {this.createCollegeOptions(this.state.collegeList)}
           </select>
-          <button onClick={() => {this.props.saveCollegeCode()}}>Submit</button>
+          <button className="button" onClick={() => {this.props.saveCollegeCode()}}>Submit</button>
         </>
       )
     } else {

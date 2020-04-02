@@ -46,10 +46,10 @@ class Matrix extends React.Component<MatrixProps, MatrixState> {
       console.log(rowData.courses[i].mySchoolCourseNumber);
       rows.push(
         <tr key={`key-${i}`}>
-          <td>{rowData.courses[i].mySchoolCourseNumber}</td>
-          <td>{rowData.courses[i].mySchoolCourseTitle}</td>
-          <td>{rowData.courses[i].shuCourseNumber}</td>
-          <td>{rowData.courses[i].shuCourseTitle}</td>
+          <td style={{textAlign: "center"}}>{rowData.courses[i].mySchoolCourseNumber}</td>
+          <td style={{textAlign: "center"}}>{rowData.courses[i].mySchoolCourseTitle}</td>
+          <td style={{textAlign: "center"}}>{rowData.courses[i].shuCourseNumber}</td>
+          <td style={{textAlign: "center"}}>{rowData.courses[i].shuCourseTitle}</td>
         </tr>
       );
     }
@@ -63,7 +63,7 @@ class Matrix extends React.Component<MatrixProps, MatrixState> {
         <table style={{width: "50vw"}}>
           <thead>
             <tr>
-              <td colSpan={4}>Course Conversion</td>
+              <td colSpan={4} style={{textAlign: "center"}}>Course Conversion</td>
             </tr>
           </thead>
           <tbody>
@@ -76,7 +76,7 @@ class Matrix extends React.Component<MatrixProps, MatrixState> {
             {this.createMatrix(this.state.matrixData)}
           </tbody>
         </table>
-        <button onClick={() => this.props.resetState()}>Start Over</button>
+        <button className="button" onClick={() => this.props.resetState()}>Start Over</button>
         </>
       );
     } else {
