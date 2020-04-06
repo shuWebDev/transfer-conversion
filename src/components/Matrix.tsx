@@ -43,7 +43,7 @@ class Matrix extends React.Component<MatrixProps, MatrixState> {
     let rows: JSX.Element[] = [];
 
     for(let i=0; i<rowData.courses.length; i++) {
-      console.log(rowData.courses[i].mySchoolCourseNumber);
+      //console.log(rowData.courses[i].mySchoolCourseNumber);
       rows.push(
         <tr key={`key-${i}`}>
           <td style={{textAlign: "center"}}>{rowData.courses[i].mySchoolCourseNumber}</td>
