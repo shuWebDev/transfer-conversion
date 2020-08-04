@@ -43,7 +43,7 @@ class SelectCollege extends React.Component<CollegeComponent.CProps, CollegeComp
     if(this.state.collegeList.length) {
       return (
         <>
-          <label>Select school you are transferring from:</label>
+          <label htmlFor="college-select">Select school you are transferring from:</label>
           <br />
           <select name="college-select" id="college-select">
             {this.createCollegeOptions(this.state.collegeList)}

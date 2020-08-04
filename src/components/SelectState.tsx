@@ -41,7 +41,7 @@ class SelectState extends React.Component<StateComponent.SProps, StateComponent.
     if(this.state.stateNames.length) {
       return (
         <>
-          <label>Select the state your current school is located in</label>
+          <label htmlFor="state-select">Select the state your current school is located in</label>
           <br />
           <select name="state-select" id="state-select">
             {this.createStateOptions(this.state.stateNames)}
